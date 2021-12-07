@@ -56,7 +56,12 @@ class App extends Component {
       rightCol: width - (clarifaiFace.right_col * width),
       bottomRow: height - (clarifaiFace.bottom_row * height)
     }
-  }S
+  }
+
+  displayFaceBox = (box) => {
+    console.log(box);
+    this.setState({box: box})
+  } 
 
   onInputChange = (event) => {
     this.setState({input: event.target.value});
@@ -69,7 +74,7 @@ class App extends Component {
      .predict(
       Clarifai.FACE_DETECT_MODEL,
       this.state.input)
-      .then(response => this.calculateFaceLocation(response))
+      .then(response => this.displayFaceBox(this.calculateFaceLocation(response)))
       .catch(err => console.log(err));
   }
 
