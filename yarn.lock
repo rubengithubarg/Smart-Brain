@@ -3224,6 +3224,13 @@
     "promise" "^7.1.1"
     "valid-url" "^1.0.9"
 
+"clarify@^2.1.0":
+  "integrity" "sha512-sWdsTozdtoFQbmncCXqCKeUzQbEZul/WJ8xYGVJgfIf4xMEM5q0La+Gjo2MFNOVL0FfTFteHqw6JX+9M71dAdQ=="
+  "resolved" "https://registry.npmjs.org/clarify/-/clarify-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "stack-chain" "^2.0.0"
+
 "class-utils@^0.3.5":
   "integrity" "sha512-qOhPa/Fj7s6TY8H8esGu5QNpMMQxz79h+urzrNYN6mn+9BnxlDGf5QZ+XeCDsxSjPqsSR56XOZOJmpeurnLMeg=="
   "resolved" "https://registry.npmjs.org/class-utils/-/class-utils-0.3.6.tgz"
@@ -10177,6 +10184,11 @@
   "integrity" "sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w=="
   "resolved" "https://registry.npmjs.org/stable/-/stable-0.1.8.tgz"
   "version" "0.1.8"
+
+"stack-chain@^2.0.0":
+  "integrity" "sha512-GGrHXePi305aW7XQweYZZwiRwR7Js3MWoK/EHzzB9ROdc75nCnjSJVi21rdAGxFl+yCx2L2qdfl5y7NO4lTyqg=="
+  "resolved" "https://registry.npmjs.org/stack-chain/-/stack-chain-2.0.0.tgz"
+  "version" "2.0.0"
 
 "stack-utils@^2.0.2":
   "integrity" "sha512-xrQcmYhOsn/1kX+Vraq+7j4oE2j/6BFscZ0etmYg81xuM8Gq0022Pxb8+IqgOFUIaxHs0KaSb7T1+OegiNrNFA=="
