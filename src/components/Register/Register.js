@@ -22,22 +22,22 @@ class Register extends React.Component  {
 
     onSubmitSignIn = () => {
         fetch('http://localhost:3000/register', {
-            method: 'post',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({
-                email: this.state.email,
-                password: this.state.password,
-                name: this.state.name
-            })
+          method: 'post',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            email: this.state.email,
+            password: this.state.password,
+            name: this.state.name
+          })
         })
-        .then(Response => response.JSON())
-        .then(user => {
-            if (user){
-                this.props.loadUser(user);
-                this.props.onRouteChange('home');
+          .then(response => response.json())
+          .then(user => {
+            if (user) {
+              this.props.loadUser(user)
+              this.props.onRouteChange('home');
             }
-        })
-    }
+          })
+      }
 
     render(){
         return (
@@ -76,7 +76,7 @@ class Register extends React.Component  {
                                 </fieldset>
                                 <div className="">
                                 <input 
-                                    onClick={() => onRouteChange('home')}
+                                    onClick={this.onSubmitSignIn}
                                     className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
                                     type="submit" 
                                     value="Register" 

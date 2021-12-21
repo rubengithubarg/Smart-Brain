@@ -99,7 +99,8 @@ class App extends Component {
           this.setState(Object.assign(this.state.user, {entries: count}))
         })
       } 
-      this.displayFaceBox(this.calculateFaceLocation(response)))
+      this.displayFaceBox(this.calculateFaceLocation(response))
+    })
       .catch(err => console.log(err));
   }
 
