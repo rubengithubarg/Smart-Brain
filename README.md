@@ -13,3 +13,6 @@ You can grab Clarifai API key [here](https://www.clarifai.com/)
 #### Full Stack Project (JavaScript, React, Redux, NodeJS, Express, PostgresSQL, Knex.js, bcryptjs)  
 
 [<img src="https://github.com/rubengithubarg/rubengithubarg/blob/main/img/Smart-Brain.png"/>](https://github.com/rubengithubarg/rubengithubarg/blob/main/img/Smart-Brain.png) 
+
+#### Repository Front-end link [here](https://github.com/rubengithubarg/Smart-Brain)
+#### Project [here](https://smart-brain-ruben-aranda.herokuapp.com/)
