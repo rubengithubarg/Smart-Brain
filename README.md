@@ -14,5 +14,5 @@ You can grab Clarifai API key [here](https://www.clarifai.com/)
 
 [<img src="https://github.com/rubengithubarg/rubengithubarg/blob/main/img/Smart-Brain.png"/>](https://github.com/rubengithubarg/rubengithubarg/blob/main/img/Smart-Brain.png) 
 
-#### Repository Front-end link [here](https://github.com/rubengithubarg/Smart-Brain)
+#### Repository Back-end link [here](https://github.com/rubengithubarg/Smart-Brain-api)
 #### Project [here](https://smart-brain-ruben-aranda.herokuapp.com/)
