@@ -8,3 +8,8 @@
 4. You must add your own API key in the `src/App.js` file to connect to Clarifai.
 
 You can grab Clarifai API key [here](https://www.clarifai.com/)
+
+
+#### Full Stack Project (JavaScript, React, Redux, NodeJS, Express, PostgresSQL, Knex.js, bcryptjs)  
+
+[<img src="https://github.com/rubengithubarg/rubengithubarg/blob/main/img/Smart-Brain.png"/>](https://github.com/rubengithubarg/rubengithubarg/blob/main/img/Smart-Brain.png) 
